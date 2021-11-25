@@ -1,5 +1,8 @@
-env/
-
 *.pyc
 __pycache__
+
+env/
+frontend/node_modules
+
+db.sqlite3
 
