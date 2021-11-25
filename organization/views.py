@@ -7,7 +7,7 @@ from .serializers import OrganizationModelSerializer
 class OrganizationList(generics.ListCreateAPIView):
     
     queryset = Organization.objects.all()
-    seriilizer_class = OrganizationModelSerializer
+    serializer_class = OrganizationModelSerializer
     
 
 class OrganizationDetail(generics.RetrieveUpdateDestroyAPIView):

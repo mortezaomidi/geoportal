@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # thired party apps
+    'rest_framework',
     'corsheaders',
 ]
 
@@ -137,3 +138,7 @@ AUTH_USER_MODEL = 'account.User'
 
 # ad cors allow all for api
 CORS_ORIGIN_ALLOW_ALL = True
+
+# Media files (updouded files by users)
+MEDIA_URL =  '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
