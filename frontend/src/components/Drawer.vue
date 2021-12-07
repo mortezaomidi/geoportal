@@ -20,6 +20,10 @@
                 <v-list-item-icon> <v-icon>mdi-home</v-icon> </v-list-item-icon>
                 <v-list-item-title>Home</v-list-item-title>
             </v-list-item>
+            <v-list-item link @click="$router.push({name: 'Organization'})">
+                <v-list-item-icon> <v-icon>mdi-plus</v-icon> </v-list-item-icon>
+                <v-list-item-title>Organization</v-list-item-title>
+            </v-list-item>
             <v-list-item link @click="$router.push({name: 'Logout'})">
                 <v-list-item-icon> <v-icon color="red darken-2">mdi-logout</v-icon> </v-list-item-icon>
                 <v-list-item-title>Logout</v-list-item-title>
