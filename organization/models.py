@@ -1,3 +1,4 @@
+from django import db
 from django.db import models
 from django.utils.translation import gettext as _
 from django.urls import reverse
@@ -23,3 +24,26 @@ class Organization(models.Model):
     def get_absolute_url(self):
         return reverse("organization_detail", kwargs={"pk": self.pk})
 
+
+class Metadata(models.Model):
+    '''
+    Core fields for KDWS metadata publishing
+    '''
+
+    organization = models.ForeignKey(        
+        Organization,
+        on_delete=models.CASCADE,
+        verbose_name = _('organization'),
+    )
+    # the public base URL of the kdws service
+    url = models.URLField( _('url'), max_length=200)
+    
+    class Meta:
+        verbose_name = _("Organization Metadat")
+        verbose_name_plural = _("Organizations Metadata")
+
+    def __str__(self):
+        return self.url
+
+    def get_absolute_url(self):
+        return reverse("organization_metadata_detail", kwargs={"pk": self.pk})
