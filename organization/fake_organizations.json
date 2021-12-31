@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Organization A",
+        "url": "https://google.com",
+        "description": "some describ ...",
+        "logo": "default_logo.png"
+    },
+    {
+        "name": "Organization B",
+        "url": "https://google.com",
+        "description": "some describ ...",
+        "logo": "default_logo.png"
+    },
+    {
+        "name": "Organization C",
+        "url": "https://google.com",
+        "description": "some describ ...",
+        "logo": "default_logo.png"
+    },
+    {
+        "name": "Organization D",
+        "url": "https://google.com",
+        "description": "some describ ...",
+        "logo": "default_logo.png"
+    },
+    {
+        "name": "Organization E",
+        "url": "https://google.com",
+        "description": "some describ ...",
+        "logo": "default_logo.png"
+    }
+]
