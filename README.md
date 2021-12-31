@@ -6,19 +6,22 @@ Over the past few decades, the use of geospatial information in decision making 
 
 Over the past few decades, the concept of geoportals has emerged as one of the key technological solutions for improving the efficiency and effectiveness of geospatial activities [5]. A geoportal allows data consumers to access, search and discover geospatial data and enables data producers to publish and share geospatial data. Furthermore, this online infrastructure may provide other geographic information services such as data visualization, editing, and analysis to its various stakeholders [1,2].
 Geoportal has a pivotal role in SDI, since it provides an entry point to spatial data on the web with standardized and more appropriate ways of searching for and accessing spatial data [8].
-Although the primary purpose of developing geoportals was not to address issues related to data analysis or knowledge extraction, in recent years the need to facilitate analytical, statistical capabilities or knowledge extraction methods in geoportals has been raised in some studies [3,9,10,11]. The growing availability of spatial data from SDIs offer great possibilities for exteracting valuable knowledge from SDIs [4]. However, Extracting high-level information and knowledge from spatial datasets is a classic problem in geographic information system (GIS) and society [7]. Although SDI is well suited for distributed data-driven accessing and sharing spatial data, it is not yet adapted for knowledge extraction in an interoperable environment [3].
+Although the primary purpose of developing geoportals was not to address issues related to data analysis or knowledge extraction, in recent years the need to facilitate analytical, statistical capabilities or knowledge extraction methods in geoportals has been raised in some studies [3,9,10,11]. Besides, growing availability of spatial data from SDIs offer great possibilities for exteracting valuable knowledge from SDIs [4]. However, Extracting high-level information and knowledge from spatial datasets is a classic problem in geographic information system (GIS) and society [7]. Although SDI is well suited for distributed data-driven accessing and sharing spatial data, it is not yet adapted for knowledge extraction in an interoperable environment [3].
 
-Extracting knowledge from distributed SDIs data based on a Geoportal provides  a bright vision for spatia data communities. In order to search, extracting and sharing knowledge by using a geoportal, the capabilities of Knowledge Discovery Web Service (KDWS) in Spatial Data Infrastructures  can be used [4] as a layer on top of the SDIs to provide spatial data users and decision-makers with the possibility of extracting knowledge from massive heterogeneous spatial data in SDIs [3].
+Extracting knowledge from distributed SDIs data based on Geoportals provide  a bright vision for spatia data communities. In order to search, extracting and sharing knowledge by using a geoportal, the capabilities of Knowledge Discovery Web Service (KDWS) in Spatial Data Infrastructures  can be used [4] as a layer on top of the SDIs to provide spatial data users and decision-makers with the possibility of extracting knowledge from massive heterogeneous spatial data in SDIs [3].
 
 The central thesis of this paper is that a geoportal can be used for knowledge discovery, extraction, and sharing in SDI ecosystem. The remaining part of the paper proceeds as follows: First, theoretical dimensions of the research addressed (See sec.#). In sec.# methods employed for the developed geoportal described in detail. In sect.# implementation steps of proposed Geoportal include #, #, #, # outlined. Finally in sec.5 and sec.6 properties of developed method discussed and conclusions provided.
 
 ## Background
 
-### SDI
+### Spatial Data Infrastructure (SDI)
+Historically, the term SDI has been used to describe technological infrastructures, standards, services, policies, actors(human resources), and related activities necessary to maintain, distribute, access and delivery(sharing) of geospatial information [multi ref]. 
+
 
 ### Geoportal
 
 ### KDWS
+There are relatively few historical studies in the area of discovering, extracting and sharing Knowledge from SDIs based on geoportals.
 
 A full discussion of KDWS lies beyond the scope of this study.
 
