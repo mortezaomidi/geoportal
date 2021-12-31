@@ -11,7 +11,7 @@ class Organization(models.Model):
     name = models.CharField(_('title'), max_length=100)
     url = models.URLField(_('url'), max_length=200)
     description = models.TextField(_('description'))
-    logo = models.ImageField(_('logo'), upload_to='uploads/', default='default_logo.png')
+    logo = models.ImageField(_('logo'), upload_to='organization/logo/', default='default_logo.png')
     
 
     class Meta:
