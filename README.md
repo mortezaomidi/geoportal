@@ -44,7 +44,7 @@ KDWS Metadata core fields:
     Entity and attribute information (TODO describe)
     Distribution information (TODO describe)
 
-![alt](figures/metadat_publishing.png)
+![alt](docs/figures/metadat_publishing.png)
 
 Also we provide an admin utility for addig, update and deliting KDWS metadata.
 
