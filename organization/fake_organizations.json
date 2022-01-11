@@ -1,32 +1,32 @@
 [
     {
-        "name": "Organization A",
-        "url": "https://google.com",
-        "description": "some describ ...",
-        "logo": "default_logo.png"
+        "name": "Tehran municipality",
+        "url": "https://www.tehran.ir/",
+        "description": "The Mayor of Tehran is the head of the Municipality of Tehran.",
+        "logo": "organization/logo/municipality.png"
     },
     {
-        "name": "Organization B",
-        "url": "https://google.com",
-        "description": "some describ ...",
-        "logo": "default_logo.png"
+        "name": "Iranian department of environment",
+        "url": "https://www.doe.ir/",
+        "description": "The Iranian Department of Environment is a governmental organization, under the supervision of the president, that is responsible for matters related to safeguarding the environment. ",
+        "logo": "organization/logo/doe.jpg"
     },
     {
-        "name": "Organization C",
-        "url": "https://google.com",
-        "description": "some describ ...",
-        "logo": "default_logo.png"
+        "name": "Iran National Cartographic Center",
+        "url": "https://www.ncc.gov.ir/",
+        "description": "The National Cartography Center of Iran is the main organization for cartography in Iran. It is administered and funded by the Government of Iran, as part of the Plan and Budget Organization.",
+        "logo": "organization/logo/ncc.jpg"
     },
     {
-        "name": "Organization D",
-        "url": "https://google.com",
-        "description": "some describ ...",
-        "logo": "default_logo.png"
+        "name": "Iran Meteorological Organization",
+        "url": "https://www.irimo.ir/far/index.php",
+        "description": "The Iran Meteorological Organization, also called the Met Department, is an agency of the Ministry of Roads and Urban Development of the Government of Iran.",
+        "logo": "organization/logo/imo.jpg"
     },
     {
-        "name": "Organization E",
-        "url": "https://google.com",
-        "description": "some describ ...",
-        "logo": "default_logo.png"
+        "name": "Planning and Budget Organization",
+        "url": "https://www.mporg.ir/",
+        "description": "Plan and Budget Organization of the Islamic Republic of Iran is a governmental department of the Government of Iran.",
+        "logo": "organization/logo/imo.jpg"
     }
 ]
