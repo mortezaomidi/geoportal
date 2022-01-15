@@ -2,16 +2,22 @@
   <div>
     <Drawer/>
     <v-main>
-      <v-row>
-        <v-col cols="12" sm="3" md="4" v-for="item in this.items" :key="item.id" >
-            <ul>
-              <li>{{ item.id }}</li>
-              <li>{{ item.name }}</li>
-              <li>{{ item.logo }}</li>
-              <li>{{ item.description }}</li>
-            </ul>
-        </v-col>
-      </v-row>         
+      <v-container fluid fill-height>
+        <v-row>
+          <v-col>
+            <v-btn @click="$router.push({name: 'CreateOrganization'})">Add Organization</v-btn>  
+          </v-col>
+        </v-row>      
+        <v-row>
+          <v-col xs="12" sm="6" md="4" lg="3" xl="3" v-for="item in this.items" :key="item.id" >
+            <v-card height="100%">
+              <v-img :src="item.logo" max-height="auto" width="100px"></v-img>
+              <v-card-title> {{item.name}} </v-card-title>
+              <v-card-text justify> {{item.description}} </v-card-text>           
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
   </div>
 
