@@ -23,9 +23,25 @@ Historically, the term SDI has been used to describe technological infrastructur
 ### KDWS
 There are relatively few historical studies in the area of discovering, extracting and sharing Knowledge from SDIs based on geoportals.
 
+
+KDWS is used for discovering and retrieving spatial knowledge from SDIs. The origin idea is the same as OGC Catalogue Service for the Web (CSW) specificaton. However, KDWS Implementation focused on publishing metadata as well as discovering and retrieving knowledge from distributed SDIs. To discovering and retrieving knowledge from distributed SDIs the KDWS defines several possible operations (Fig.#):
+
+```xml
+<ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities"></ows:Operation>
+    <ows:Operation name="GetInsight"></ows:Operation>
+    <ows:Operation name="GetSpatialClusters"></ows:Operation>
+    <ows:Operation name="GetSpatialClassification"></ows:Operation>
+    <ows:Operation name="GetSpatialAssociationRules"></ows:Operation>
+</ows:OperationsMetadata>
+```
+As Fig# shows that KDWS inherits GetCapabilities operation from the OWS interface and adds three operations named GetInsight, GetSpatialClusters, GetSpatialClassification, and GetSpatialAssociationRules. 
+
 A full discussion of KDWS lies beyond the scope of this study.
 
-## Material and Methods
+## Methodology
+The proposed geoportal integrates the capabilities of KDWS into classical geoportal to provide extracting knowledge from distributed SDIs.
+
 
 ### Proposed Architecture
 
@@ -49,6 +65,13 @@ KDWS Metadata core fields:
 Also we provide an admin utility for addig, update and deliting KDWS metadata.
 
 ### Prototype Implementation
+Each organization registers its own service (KDWS) in the management panel.
+
+admin panel of geoportal (show registered organization)
+![alt](docs/figures/admin_panel_organization.PNG)
+
+admin panel of geoportal (create new organization)
+![alt](docs/figures/adding_new_organization.PNG)
 
 ## Results
 
