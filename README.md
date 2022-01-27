@@ -24,7 +24,7 @@ Historically, the term SDI has been used to describe technological infrastructur
 There are relatively few historical studies in the area of discovering, extracting and sharing Knowledge from SDIs based on geoportals.
 
 
-KDWS is used for discovering and retrieving spatial knowledge from SDIs. The origin idea is the same as OGC Catalogue Service for the Web (CSW) specificaton. However, KDWS Implementation focused on publishing metadata as well as discovering and retrieving knowledge from distributed SDIs. To discovering and retrieving knowledge from distributed SDIs the KDWS defines several possible operations (Fig.#):
+KDWS is used for discovering and retrieving spatial knowledge from SDIs. The origin idea is the same as OGC Catalogue Service for the Web (CSW) specificaton. However, KDWS Implementation focused on publishing metadata as well as discovering and retrieving knowledge from distributed SDIs. To discovering and retrieving knowledge from distributed SDIs the KDWS defines several possible operations (Fig.#). These operations implemented based on OGC Web Services Common Standard (OWS) [12].
 
 ```xml
 <ows:OperationsMetadata>
@@ -35,7 +35,7 @@ KDWS is used for discovering and retrieving spatial knowledge from SDIs. The ori
     <ows:Operation name="GetSpatialAssociationRules"></ows:Operation>
 </ows:OperationsMetadata>
 ```
-As Fig# shows that KDWS inherits GetCapabilities operation from the OWS interface and adds three operations named GetInsight, GetSpatialClusters, GetSpatialClassification, and GetSpatialAssociationRules. 
+As Fig# shows that KDWS inherits GetCapabilities operation from the OWS interface and adds three operations named GetInsight, GetSpatialClusters, GetSpatialClassification, and GetSpatialAssociationRules. The GetCapabilities operation allows any client to retrieve capabilities provided by any organization that implements an KDWS  implementation specification.
 
 A full discussion of KDWS lies beyond the scope of this study.
 
@@ -76,6 +76,7 @@ admin panel of geoportal (create new organization)
 ## Results
 
 ## Discussion and Conclusions
+discuse solutions are compliant with OGC Standards
 
 ## Refrences
 
@@ -90,3 +91,4 @@ admin panel of geoportal (create new organization)
 9. [Bridging open source tools and Geoportals for interactive spatial data analytics](https://www.tandfonline.com/doi/full/10.1080/10095020.2019.1645497)
 10. [The statistical geoportal and the ``cartographic added value'' - creation of the spatial knowledge infrastructure](https://www.researchgate.net/publication/258646417_The_statistical_geoportal_and_the_cartographic_added_value''_-_creation_of_the_spatial_knowledge_infrastructure)
 11. [CoGIS - A knowledge geoportal for a knowledge society](http://www.saeon.ac.za/enewsleter-archives/2009/july-2009/cogis-a-knowledge-geoportal-for-a-knowledge-society)
+12. [OGC Web Services Common Standard] (https://www.ogc.org/standards/common)
