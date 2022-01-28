@@ -21,7 +21,7 @@ Sharing spatial data between other communities need a distributed network. The m
 
 The early generation of clearinghouses provided users with either information about the data, or a link to the data producer web site and hints for accessing the data [6]. The development of technology and the advancement of spatial web services set up a new generation of clearinghouses that are based on Geoportals as a gateway. Geoportal can broadly be defined as web-based portal used to discovering and accessing spatial data and services. One reason why Geoportal is important is that it provide a single and integrated environment to acessing all available spatial resources.
 
-According to Toomanian [6] reviewed the basic components of current clearinghouse networks (See Figure#).
+Toomanian [6] reviewed the basic components of current clearinghouse networks (See Figure#).
 
 ![alt](docs/figures/clearinghouses_components.png)
 
@@ -34,8 +34,6 @@ The proposed geoportal integrates the capabilities of KDWS into classical geopor
 
 ### KDWS
 There are relatively few historical studies in the area of discovering, extracting and sharing Knowledge from SDIs based on geoportals.
-
-
 KDWS is used for discovering and retrieving spatial knowledge from SDIs. The origin idea is the same as OGC Catalogue Service for the Web (CSW) specificaton. However, KDWS Implementation focused on publishing metadata as well as discovering and retrieving knowledge from distributed SDIs. To discovering and retrieving knowledge from distributed SDIs the KDWS defines several possible operations (Figure.#). These operations implemented based on OGC Web Services Common Standard (OWS) [12].
 
 ```xml
