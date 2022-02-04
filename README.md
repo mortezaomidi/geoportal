@@ -30,7 +30,27 @@ As Figure[#] shown, data producers publish and store metadata by using catalog s
 According to Smith [13], lack of knowledge and experience, and limited insight in the benefits are the most important chalanges in SDIs.
 
 ## Methodology
-The proposed geoportal integrates the capabilities of KDWS into classical geoportal to provide extracting knowledge from distributed SDIs.
+To enhance geoportal functionalities, the proposed method integrates  the capabilities of Web service-based spatial knowledge discovery into classical geoportal. The proposed method is comprised of four main components, namely, gateway, metadata, knowledge discovery, and management.  
+
+Specifically, all functionality of knowledge based geoportal provided by a gateway. The gateway connects other different components so that information can be passed between them. Knowledge discovery is the main component of the proposed method. A web service called Knowledge Discovery Web Service (KDWS) was used to facilitate interoperable knowledge extraction. The Metadata components are used to publishing metada by organizations. Moreover, a management component allows for defining a set of managerial tasks. An organization may want data to be discoverable to certain groups of people, but not discoverable to others. Access to metadata records can be configured in the geoportal by restricting user access to metadata records only restricts who can see the metadata. 
+ 
+![alt](docs/figures/concept.png)
+
+<center>Figure#. Main components and functionalities of the knowledge-based geoportal</center>
+
+
+### Gateway component
+bla bla
+
+
+### Knowledge discovery component
+bla bla
+
+### Metadata component
+bla bla
+
+### Management component
+bla bla
 
 ### KDWS
 There are relatively few historical studies in the area of discovering, extracting and sharing Knowledge from SDIs based on geoportals.

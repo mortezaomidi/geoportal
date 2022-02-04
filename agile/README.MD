@@ -1,0 +1,1 @@
+# New Generation of Geospatial Data Clearinghouses (12 April, 2022)
